@@ -1,3 +1,10 @@
+# Redirect root to /shoppingreact
+[[redirects]]
+  from = "/"
+  to = "/shoppingreact/"
+  status = 301
+
+# Handle SPA routing within shoppingreact
 [[redirects]]
   from = "/shoppingreact/*"
   to = "/shoppingreact/index.html"
