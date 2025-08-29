@@ -1,0 +1,5 @@
+# Redirect root to /shoppingreact
+/  /shoppingreact/  301
+
+# Handle SPA routing within shoppingreact
+/shoppingreact/*  /shoppingreact/index.html  200
