@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/shoppingreact/*"
+  to = "/shoppingreact/index.html"
+  status = 200
